@@ -1,6 +1,8 @@
 name: Development
 
 on:
+  push:
+    branches: [ "beta", "feature_test" ]
   pull_request:
     types:
       - opened
